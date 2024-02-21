@@ -23,7 +23,7 @@ export default function StoreSection() {
           alt="health-first-policy"
           width={500}
           height={500}
-          className="w-full border-solid border-[1px] rounded-xl border-gray-600"
+          className="w-full border-solid border-[1px] rounded-xl border-gray-300"
         />
         <div>
           <ul className="flex items-center justify-center">
@@ -35,7 +35,7 @@ export default function StoreSection() {
                 height={152}
                 id="/chips1.jpg"
                 onClick={handleImageClick}
-                className="w-36 border-[1px] rounded-xl border-gray-600 drag-none select-none"
+                className="w-36 border-[1px] rounded-xl border-gray-300 drag-none select-none"
               />
             </li>
             <li className="m-2 cursor-pointer" id="chips2">
@@ -46,7 +46,7 @@ export default function StoreSection() {
                 height={152}
                 id="/chips2.jpg"
                 onClick={handleImageClick}
-                className="w-36 border-[1px] rounded-xl border-gray-600 drag-none select-none"
+                className="w-36 border-[1px] rounded-xl border-gray-300 drag-none select-none"
               />
             </li>
             <li className="m-2 cursor-pointer" id="chips3">
@@ -57,7 +57,7 @@ export default function StoreSection() {
                 height={152}
                 id="/chips3.jpg"
                 onClick={handleImageClick}
-                className="w-36 border-[1px] rounded-xl border-gray-600 drag-none select-none"
+                className="w-36 border-[1px] rounded-xl border-gray-300 drag-none select-none"
               />
             </li>
           </ul>

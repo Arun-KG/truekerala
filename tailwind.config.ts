@@ -21,6 +21,9 @@ const config: Config = {
         "sec-2-bg": "url('/bg-2.jpg')",
         "sec-4-bg": "url('/bg-4.jpg')",
       },
+      transitionProperty: {
+        "max-height": "max-height",
+      },
     },
   },
   plugins: [
@@ -35,6 +38,7 @@ const config: Config = {
         },
       });
     }),
+    require("tailwind-scrollbar")({ preferredStrategy: "pseudoelements" }),
   ],
 };
 export default config;

@@ -3,6 +3,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="relative">
+      <div className="md:hidden h-16 bg-gradient-to-r from-[#80b451] to-[#b5cb13]"></div>
       <Image
         src="/banner.webp"
         alt="hero_image"

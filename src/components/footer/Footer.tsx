@@ -101,16 +101,15 @@ export default function Footer() {
           </p>
         </div>
       </div>
-      <div className="bg-[#ebffc5] w-full p-1 px-4 flex justify-between flex-col lg:flex-row">
+      <div className="bg-[#ebffc5] w-full p-1 px-4 flex justify-center items-center md:justify-between flex-col lg:flex-row">
         <p className="py-2">
-          &copy;{new Date().getFullYear()} Truly Kerala. All Rights Reserved.{" "}
           <Link
             href="/privacy-policy/"
             className="transition-colors duration-300 hover:text-[#0d6efd]"
           >
             Privacy Policy
           </Link>
-          &nbsp; |{" "}
+          &nbsp;|{" "}
           <Link
             href="/terms-of-use/"
             className="transition-colors duration-300 hover:text-[#0d6efd]"
@@ -126,6 +125,9 @@ export default function Footer() {
             {" "}
             Refund Policy
           </Link>
+        </p>
+        <p className="py-2">
+          &copy;{new Date().getFullYear()} Truly Kerala. All Rights Reserved.
         </p>
         <p className="py-2">Call Us: +91 85904 68816</p>
       </div>
